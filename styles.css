@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 50px;
+}
+
+.logo img {
+    height: 80px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+}
+
+.container a {
+    text-decoration: none;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: darkred;
+}
+
+.middle2 p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: black;
+    padding: 90px 20px 30px;
+    text-align: center;
+}
+
+.middle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.middle3 img {
+    width: 85%;
+    height: auto;
+    border-radius: 70px;
+}
+
+.middle4 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.products a {
+    text-decoration: none;
+    padding: 50px 45px;
+    border: 10px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.products a:hover {
+    transform: scale(1.05);
+}
+
+.x {
+    color: white;
+    background-color: red;
+}
+
+.y {
+    color: black;
+    background-color: red;
+}
+
+.z {
+    color: red;
+    background-color: #B1B1B1;
+}
+
+.ending {
+    background: linear-gradient(to right, #ff0000, #a80000);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ending-content p {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: #FFD700;
+    font-size: 16px;
+}
